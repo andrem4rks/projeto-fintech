@@ -53,4 +53,9 @@ public class Cliente {
 	public void setNumeroContato(String numeroContato) {
 		this.numeroContato = numeroContato;
 	}
+
+	@Override
+	public String toString() {
+		return "Cliente [id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", numeroContato=" + numeroContato + "]";
+	}
 }

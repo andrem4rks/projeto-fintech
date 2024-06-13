@@ -9,7 +9,7 @@ public class ConnectionManager {
 	
 	private ConnectionManager() {};
 	
-	public static ConnectionManager gerInstance() {
+	public static ConnectionManager getInstance() {
 		if(connectionManager == null) {
 			connectionManager = new ConnectionManager();
 		}

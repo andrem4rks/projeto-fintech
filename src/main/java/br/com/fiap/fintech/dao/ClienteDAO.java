@@ -9,8 +9,8 @@ public interface ClienteDAO {
 
 	void cadastrar(Cliente cliente) throws DBException;
 	void atualizar(Cliente cliente) throws DBException;
-	void remover(Cliente cliente) throws DBException;
-	void buscar(int id);
+	void remover(int id) throws DBException;
+	Cliente buscar(int id);
 	List<Cliente> listar();
 	
 }
